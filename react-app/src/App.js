@@ -1,9 +1,14 @@
 import React from "react";
+import Header from "./components/header";
+import Facts from "./components/facts";
+import Footer from "./components/footer";
 
 function App() {
   return (
     <div>
-      <h2>hello fucking world</h2>
+      <Header />
+      <Facts />
+      <Footer />
     </div>
   );
 }
