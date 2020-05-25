@@ -92,6 +92,17 @@
 .tweet-container {
   width: 100%;
   color: black;
+  padding: 8px;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+}
+.col-2{
+  flex: 1;
+}
+.col-10 {
+  flex: 5;
 }
 hr {
   border: 1px black solid;
