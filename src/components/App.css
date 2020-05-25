@@ -13,6 +13,9 @@
 }
 .body {
   background-color: white;
+  width: 100vw;
+  height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -55,12 +58,11 @@
   text-align: center;
 }
 .header {
-  width: 90vw;
-  padding: 8px;
+  width: 100vw;
+  margin: 4px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  border-bottom: 1px grey solid;
 }
 .profile-img {
   height: 50px;
@@ -88,11 +90,15 @@
   height: 100%;
   width: 100%;
 }
+.tweets {
+  width: 100vw;
+}
 
 .tweet-container {
   width: 100%;
   color: black;
   padding: 8px;
+  border-top: 1px black solid;
 }
 .row {
   display: flex;
@@ -100,9 +106,38 @@
 }
 .col-2{
   flex: 1;
+  padding: 4px;
 }
 .col-10 {
   flex: 5;
+  padding: 8px;
+}
+.img-container {
+  width: 50px;
+  height: 50px;
+}
+.tweet-img {
+  height: 100%;
+  width: 100%;
+border-radius: 50%;
+}
+.tweet-name {
+  font-weight: bold;
+  font-size: 16px;
+}
+.tweet-text {
+  font-size: 16px;
+  margin-top: 4px;
+}
+.time {
+  font-weight: 200;
+  font-size: 16px;
+  padding-left: 8px;
+}
+.username {
+  font-weight: 200;
+  font-size: 16px;
+  padding-left: 8px;
 }
 hr {
   border: 1px black solid;
