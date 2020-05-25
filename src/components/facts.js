@@ -4,13 +4,16 @@ import "./App.css";
 function Facts(){
     return (
         <div className="tweet-container">
-            <div>
-                <h2>facts</h2><hr/>
+            <div className="tweet-container">
+                <div>
+
+                </div>
+                <div className="row">
+                    <div className="col-2"></div>
+                    <div className="col-10"></div>
+                </div>
+
             </div>
-            <div>
-                <p></p>
-            </div>
-            <button>Get more facts</button>
         </div>
     )
 }
