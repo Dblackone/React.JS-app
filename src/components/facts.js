@@ -3,7 +3,7 @@ import "./App.css";
 
 function Facts(){
     return (
-        <div className="facts-container">
+        <div className="tweet-container">
             <div>
                 <h2>facts</h2><hr/>
             </div>
